@@ -8,7 +8,7 @@ All of my assets are available as **.unitypackage** files therefore you just nee
 
 # Current Projects
 
-## Anime Grass
+## [Anime Grass](https://github.com/Thial/CVR_Assets/blob/master/Shaders/AnimeGrass.unitypackage)
 This is an edit of a grass shader by Leviant. The shader has been modified to provide maximum performance with some nice features and to make the grass look like in Studio Ghibli movies. This shader is made for people baking their shadows outside of Unity. It does not support Unity's light maps / lighting / shadows since that requires extra calculations. It is meant for highly stylized worlds.
 
 ![Anime Grass](https://i.imgur.com/C0CL9Ct.png)
