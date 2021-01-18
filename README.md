@@ -9,17 +9,16 @@ All of my assets are available as **.unitypackage** files therefore you just nee
 # Current Projects
 
 ## [Anime Grass](https://github.com/Thial/CVR_Assets/raw/master/Shaders/AnimeGrass.unitypackage)
-This is an edit of a grass shader by Leviant. The shader has been modified to provide maximum performance with some nice features and to make the grass look like in Studio Ghibli movies. This shader is made for people baking their shadows outside of Unity. It does not support Unity's light maps / lighting / shadows since that requires extra calculations. It is meant for highly stylized worlds.
 
 ![Anime Grass](https://i.imgur.com/C0CL9Ct.png)
 
-1. Forced the grass blades to be rendered in the most optimized way.
-2. Removed Lighting/Shadows calculations
-3. Removed the grass shadow gradient and replaced it with tip brightness to allow blending with the ground texture
-4. Removed other unnecessary calculations to keep the bare minimum of the code necessary for the grass to render.
-5. Added color map UV mapping support (As the shader doesn't support shadows the shadows need to be baked onto the color map texture).
-6. Added height map functionality along with UV mapping support.
-7. Added height map strength functionality.
-8. Added height map mask functionality which doesn't render grass where the height map is black or dark enough depending on the Height Map Mask Strength slider (This allows you to create patches/clumps/paths/remove grass from below other objects etc).
-9. Added grass rotation functionality. If the rotation is too strong and the grass will go under the surface it simply won't be rendered just like with the height map masking.
-
+**Features**
+1. Optimized for maximum performance.
+2. Albedo support (both terrain mesh and grass are colored using the same albedo).
+3. Width / Height / Tilt adjustment.
+4. Root darkening / Tip brightening.
+5. Unity lightmap support.
+6. Unity fog support.
+7. Displacement map support (Normal map) with individual strength values for each axis.
+8. Height map mask (masks the short grass based on the green color of the displacement map).
+9. Wind support (Normal map).
